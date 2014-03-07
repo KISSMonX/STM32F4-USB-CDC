@@ -1,0 +1,127 @@
+
+<ApplicationBuild Header="Project" Extern=".\UsbIo.rapp" Path=".\UsbIo.rapp" OutputFile=".\out\UsbIo.elf" sate="98" >
+	<Group Header="CMSIS" Marker="-1" OutputFile="" sate="0" >
+		<NodeC Path=".\STM32Lib-v110\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c" Header="system_stm32f4xx.c" Marker="-1" OutputFile=".\out\system_stm32f4xx.o" sate="0" />
+																																																																																																																																																																																																																																																																											
+	</Group>
+	<Group Header="Lib" Marker="-1" OutputFile="" sate="96" >
+		<NodeC Path=".\STM32Lib-v110\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_it.c" Header="stm32f4xx_it.c" Marker="-1" OutputFile=".\out\stm32f4xx_it.o" sate="0" />
+		<NodeC Path=".\STM32Lib-v110\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c" Header="misc.c" Marker="-1" OutputFile=".\out\misc.o" sate="0" />
+		<NodeC Path=".\STM32Lib-v110\Libraries\STM32F4xx_StdPeriph_Driver\src\STM32F4xx_gpio.c" Header="STM32F4xx_gpio.c" Marker="-1" OutputFile=".\out\STM32F4xx_gpio.o" sate="0" />
+		<NodeC Path=".\STM32Lib-v110\Libraries\STM32F4xx_StdPeriph_Driver\src\STM32F4xx_rcc.c" Header="STM32F4xx_rcc.c" Marker="-1" OutputFile=".\out\STM32F4xx_rcc.o" sate="0" />
+		<NodeC Path=".\STM32Lib-v110\Libraries\STM32F4xx_StdPeriph_Driver\src\STM32F4xx_iwdg.c" Header="STM32F4xx_iwdg.c" Marker="-1" OutputFile=".\out\STM32F4xx_iwdg.o" sate="0" />
+		<NodeC Path=".\STM32Lib-v110\Libraries\STM32F4xx_StdPeriph_Driver\src\STM32F4xx_tim.c" Header="STM32F4xx_tim.c" Marker="-1" OutputFile=".\out\STM32F4xx_tim.o" sate="0" />
+		<NodeC Path=".\STM32Lib-v110\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c" Header="stm32f4xx_exti.c" Marker="-1" OutputFile=".\out\stm32f4xx_exti.o" sate="0" />
+		<NodeC Path=".\STM32Lib-v110\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c" Header="stm32f4xx_adc.c" Marker="-1" OutputFile=".\out\stm32f4xx_adc.o" sate="0" />
+		<NodeC Path=".\STM32Lib-v110\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c" Header="stm32f4xx_dma.c" Marker="-1" OutputFile=".\out\stm32f4xx_dma.o" sate="0" />
+																																																																																																																																																																																																																																																
+	</Group>
+	<Group Header="LibUSB" Marker="-1" OutputFile="" sate="0" >
+		<NodeC Path=".\USB_OTG\src\usb_core.c" Header="usb_core.c" Marker="-1" OutputFile=".\out\usb_core.o" sate="0" />
+		<NodeC Path=".\USB_OTG\src\usb_dcd.c" Header="usb_dcd.c" Marker="-1" OutputFile=".\out\usb_dcd.o" sate="0" />
+		<NodeC Path=".\USB_OTG\src\usb_dcd_int.c" Header="usb_dcd_int.c" Marker="-1" OutputFile=".\out\usb_dcd_int.o" sate="0" />
+		<NodeC Path=".\USB_OTG\src\usb_hcd.c" Header="usb_hcd.c" Marker="-1" OutputFile=".\out\usb_hcd.o" sate="0" />
+		<NodeC Path=".\USB_OTG\src\usb_hcd_int.c" Header="usb_hcd_int.c" Marker="-1" OutputFile=".\out\usb_hcd_int.o" sate="0" />
+		<NodeC Path=".\USB_OTG\src\usb_otg.c" Header="usb_otg.c" Marker="-1" OutputFile=".\out\usb_otg.o" sate="0" />
+		<NodeC Path=".\USB_Device\Core\src\usbd_core.c" Header="usbd_core.c" Marker="-1" OutputFile=".\out\usbd_core.o" sate="0" />
+		<NodeC Path=".\USB_Device\Core\src\usbd_ioreq.c" Header="usbd_ioreq.c" Marker="-1" OutputFile=".\out\usbd_ioreq.o" sate="0" />
+		<NodeC Path=".\USB_Device\Core\src\usbd_req.c" Header="usbd_req.c" Marker="-1" OutputFile=".\out\usbd_req.o" sate="0" />
+		<NodeC Path=".\USB_Device\Class\cdc\src\usbd_cdc_core.c" Header="usbd_cdc_core.c" Marker="-1" OutputFile=".\out\usbd_cdc_core.o" sate="0" />
+						
+	</Group>
+	<Group Header="USB" Marker="-1" OutputFile="" sate="0" >
+		<NodeC Path=".\USB\usb_bsp.c" Header="usb_bsp.c" Marker="-1" OutputFile=".\out\usb_bsp.o" sate="0" />
+		<NodeC Path=".\USB\usbd_cdc_vcp.c" Header="usbd_cdc_vcp.c" Marker="-1" OutputFile=".\out\usbd_cdc_vcp.o" sate="0" />
+		<NodeC Path=".\USB\usbd_desc.c" Header="usbd_desc.c" Marker="-1" OutputFile=".\out\usbd_desc.o" sate="0" />
+		<NodeC Path=".\USB\usbd_usr.c" Header="usbd_usr.c" Marker="-1" OutputFile=".\out\usbd_usr.o" sate="0" />
+						
+	</Group>
+	<NodeC Path=".\src\Crc.c" Header="Crc.c" Marker="-1" OutputFile=".\out\Crc.o" sate="0" />
+	<NodeC Path=".\src\GpIo.c" Header="GpIo.c" Marker="-1" OutputFile=".\out\GpIo.o" sate="0" />
+	<NodeC Path=".\src\main.c" Header="main.c" Marker="-1" OutputFile=".\out\main.o" sate="0" />
+	<NodeC Path=".\src\SccFrame.c" Header="SccFrame.c" Marker="-1" OutputFile=".\out\SccFrame.o" sate="0" />
+	<NodeC Path=".\src\SysInit.c" Header="SysInit.c" Marker="-1" OutputFile=".\out\SysInit.o" sate="0" />
+	<NodeC Path=".\src\SysTick.c" Header="SysTick.c" Marker="-1" OutputFile=".\out\SysTick.o" sate="0" />
+	<NodeC Path=".\src\Version.c" Header="Version.c" Marker="-1" OutputFile=".\out\Version.o" sate="0" />
+	<NodeC Path=".\src\Watchdog.c" Header="Watchdog.c" Marker="-1" OutputFile=".\out\Watchdog.o" sate="0" />
+	<Options>
+		<Config Header="Standard" >
+			<Set Header="ApplicationBuild" >
+				<Section Header="General" >
+					<Property Header="TargetFamily" Value="ARM" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
+				</Section>
+				<Section Header="Directories" >
+					<Property Header="IncDir" Value=".;.\inc;.\STM32Lib-v110\Libraries\CMSIS\Include;.\STM32Lib-v110\Libraries\CMSIS\Device\ST\STM32F4xx\Include;.\STM32Lib-v110\Libraries\STM32F4xx_StdPeriph_Driver\inc;.\USB;.\USB_Device\Class\cdc\inc;.\USB_Device\Core\inc;.\USB_OTG\inc" Removable="1" />
+					<Property Header="OutDir" Value="$(ApplicationDir)\out" Removable="1" />
+					<Property Header="ListDir" Value="$(ApplicationDir)\out" Removable="1" />
+																									
+				</Section>
+																			
+			</Set>
+			<Set Header="Target" >
+				<Section Header="ProcessorARM" >
+					<Property Header="Processor" Value="STM32F407xG" />
+																									
+				</Section>
+				<Section Header="ToolSetARM" >
+					<Property Header="BuildToolSetARM" Value="ARM\GNU.config" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
+				</Section>
+																			
+			</Set>
+			<Set Header="GCC" >
+				<Section Header="OPTIMIZE" >
+					<Property Header="Optimize" Value="" Removable="1" />
+																																		
+				</Section>
+				<Section Header="More" >
+					<Property Header="More" Value="-std=c99" />
+																																																																																																																																														
+				</Section>
+				<Section Header="WARNINGS" >
+					<Property Header="CONSWARNINGS" Value="-Wall" Removable="1" />
+					<Property Header="SWITCHWARNINGS" Value="" Removable="1" />
+																																																																																																																																																																																																																																																										
+				</Section>
+				<Section Header="Defines" >
+					<Property Header="Defines" Value="USE_STDPERIPH_DRIVER;USE_USB_OTG_FS;WATCHDOG_DISABLED" Removable="1" />
+																									
+				</Section>
+				<Section Header="Specific" >
+					<Property Header="FPU" Value="-mfpu=fpv4-sp-d16 -mfloat-abi=softfp" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																															
+				</Section>
+																			
+			</Set>
+			<Set Header="LD" >
+				<Section Header="Scripts" >
+					<Property Header="StarterKitLimit" Value="No" Removable="1" />
+					<Property Header="SCRIPTFILES" Value="Yes" Removable="1" />
+					<Property Header="File" Value="$(ApplicationDir)\Ld\stm32f4xx_flash.ld" Removable="1" />
+																									
+				</Section>
+				<Section Header="LIB" >
+					<Property Header="STM32LIB" Value="0" Removable="1" />
+					<Property Header="UART0PUTC" Value="0" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																	
+				</Section>
+				<Section Header="More" >
+					<Property Header="More" Value="-L $(ApplicationDir)/Ld" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																															
+				</Section>
+				<Section Header="Startup" >
+					<Property Header="DEFAULTSTARTUP" Value="Yes" Removable="1" />
+					<Property Header="File" Value="" Removable="1" />
+																									
+				</Section>
+																			
+			</Set>
+										
+		</Config>
+						
+	</Options>
+	<NodeC Path=".\src\UsbHandler.c" Header="UsbHandler.c" Marker="-1" OutputFile=".\out\UsbHandler.o" sate="0" />
+	<NodeC Path=".\src\IoMap.c" Header="IoMap.c" Marker="-1" OutputFile=".\out\IoMap.o" sate="0" />
+	<NodeC Path=".\src\Adc.c" Header="Adc.c" Marker="-1" OutputFile=".\out\Adc.o" sate="0" />
+</ApplicationBuild>
